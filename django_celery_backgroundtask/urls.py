@@ -1,4 +1,4 @@
-"""django_celery_backroundtask URL Configuration
+"""django_celery_backgroundtask URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/

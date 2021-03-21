@@ -1,5 +1,5 @@
 """
-ASGI config for django_celery_backroundtask project.
+ASGI config for django_celery_backgroundtask project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_celery_backroundtask.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_celery_backgroundtask.settings')
 
 application = get_asgi_application()

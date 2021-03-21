@@ -5,5 +5,5 @@ from .tasks import sleepy
 
 # Create your views here.
 def index(request):
-    sleepy(10)
+    sleepy.delay(10)
     return HttpResponse('<h1>Done !</h1>')

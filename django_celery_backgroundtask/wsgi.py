@@ -1,5 +1,5 @@
 """
-WSGI config for django_celery_backroundtask project.
+WSGI config for django_celery_backgroundtask project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_celery_backroundtask.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_celery_backgroundtask.settings')
 
 application = get_wsgi_application()
